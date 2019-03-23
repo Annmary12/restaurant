@@ -1,0 +1,55 @@
+.sidenav {
+  width: 257.6px;
+  height: 1080px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.3px #ffffff;
+  background-color: #ffffff;
+  // z-index: 9999;
+  // position: fixed;
+
+  &__icon {
+    width: 23px;
+    height: 15.1px;
+    object-fit: contain;
+  }
+
+  &__header {
+    width: 131.3px;
+    height: 32.1px;
+    color: #3772ff;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 20px 40px;
+  }
+
+  &__items {
+    margin-top: 100px;
+
+    ul {
+      list-style: none;
+      text-decoration: none;
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 40px;
+    cursor: pointer;
+
+    &--text {
+      font-family: ATC Arquette;
+      font-size: 20px;
+      text-align: left;
+      color: rgba(67, 80, 102, 0.7);
+    }
+
+    &--active, &:hover{
+      background-color: rgba(55, 114, 255, 0.2);
+      span {
+        color: #3772ff;
+      }
+    }
+  }
+}

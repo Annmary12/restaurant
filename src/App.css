@@ -8,11 +8,31 @@
 
 body {
   box-sizing: border-box;
-  background: pink;
   font-weight: 400;
-  font-family: "Open Sans", open-sans, sans-serif;
+  font-family: ATC Arquette;
 }
 
 a {
   text-decoration: none;
+}
+
+.App {
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  height: 2066px;
+}
+
+.search-section {
+  /* background: rebeccapurple; */
+  /* display: flex; */
+
 }

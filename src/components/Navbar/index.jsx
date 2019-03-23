@@ -9,14 +9,14 @@ import searchIcon from '../../assets/images/search.svg';
 
 const NavBar = () => (
   <div className="navbar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img src={searchIcon}  className="navbar__search" alt="search-img"/>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <img src={searchIcon}  className="navbar__search ml-4" alt="search-img"/>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active ml-3">
+          <li class="nav-item active ml-4">
             <span className="navbar__search-restaurants">Search Restaurants</span>
           </li>
         </ul>

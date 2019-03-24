@@ -50,7 +50,7 @@ class SelectBox extends Component {
   }
 
   render() {
-    const { name, options } = this.props;
+    const { name, options, classes } = this.props;
     return(
       <div className="select-box">
         <div className="select-box__inputField">
@@ -63,7 +63,7 @@ class SelectBox extends Component {
             value={this.state.selectedOption}
             autoComplete="off"
           />
-          <span className="select-box__input--icon">
+          <span className={`select-box__input--icon ${classes}`}>
             { this.state.showDropdownOptions
               ? <i className="fa fa-caret-up"></i>
               : <i className="fa fa-caret-down"></i>

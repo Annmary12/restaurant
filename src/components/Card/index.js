@@ -8,7 +8,8 @@ const Card = () => (
     <img src="https://res.cloudinary.com/annmary/image/upload/v1553360397/loulou-restaurant-paris-06_fpt8gb.jpg" alt="card-image" />
     <div className="card__views">
       <span className="card__views--comment">
-        <i class="fa fa-comments fa-2x mr-2"></i> 1, 342 Comments
+        <i class="fa fa-comments fa-2x mr-2"></i> 
+        <span>1, 342 Comments</span>
       </span>
       <span className="card__views--rating ml-2"> 
         <i class="fa fa-star mr-2"></i>3.6

@@ -26,7 +26,7 @@ const Restaurant = () => (
                 <SelectBox
                   options={filterArray}
                   label="FILTER BY"
-                  classes="sortBy"
+                  classes="left"
                 />
               </div>
             </div>

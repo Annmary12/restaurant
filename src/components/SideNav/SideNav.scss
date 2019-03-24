@@ -1,11 +1,10 @@
 .sidenav {
-  width: 257.6px;
+  width: 16.666667%;
   height: 1080px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16);
   border: solid 0.3px #ffffff;
   background-color: #ffffff;
-  // z-index: 9999;
-  // position: fixed;
+  position: fixed;
 
   &__icon {
     width: 23px;

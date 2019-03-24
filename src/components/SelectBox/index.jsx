@@ -50,7 +50,7 @@ class SelectBox extends Component {
   }
 
   render() {
-    const { name, options, classes} = this.props;
+    const { name, options } = this.props;
     return(
       <div className="select-box">
         <div className="select-box__inputField">

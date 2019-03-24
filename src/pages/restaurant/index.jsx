@@ -39,9 +39,9 @@ const Restaurant = () => (
           </div>
         </section>
         <section className="row mt-5 mr-3">
-          <div className="col-md-4"><Card /></div>
-          <div className="col-md-4"><Card /></div>
-          <div className="col-md-4"><Card /></div>
+          <div className="col-lg-4"><Card /></div>
+          <div className="col-lg-4"><Card /></div>
+          <div className="col-lg-4"><Card /></div>
         </section>
         <section className="row mt-5 mr-3">
           <div className="col-md-4"><Card /></div>

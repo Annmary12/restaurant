@@ -14,10 +14,10 @@ class App extends Component {
       <div className="App">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-2 col-md-3">
+            <div className="col-md-2">
               <SideNav />
             </div>
-            <div className="col-lg-10 col-md-9">
+            <div className="col-md-10">
               <NavBar />
               <RestaurantDashboard />
             </div>
